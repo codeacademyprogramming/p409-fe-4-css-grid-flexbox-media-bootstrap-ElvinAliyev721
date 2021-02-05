@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bangers', cursive;
+}
+
+h1, h2 {
+  letter-spacing: 0.1em;  
+}
+
+h3 {
+  letter-spacing: 0.2em;  
+}
+.hero {
+  background: url('https://images.unsplash.com/photo-1514511745018-1a24bf434b6c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ') center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+}
+
+.hero > * {
+  color: white;
+}
+
+.hero > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+
+
+.kitties {
+  padding: 2rem;
+}
+
+.kitties > ul {
+  list-style-type: none;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.kitties > ul > li {
+  border: 1px solid #ccc;
+  border-radius: .3rem;
+}
+
+.kitties > ul > li > figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  position: relative;
+}
+
+.kitties > ul > li > figure > img {
+  width: 100%;
+}
+
+.kitties > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(74, 4, 42, .7);
+  width: 100%;
+}
+
+.kitties > ul > li > figure > figcaption > h3 {
+  color: white;
+  padding: .75rem;
+  font-size: 1.25rem;
+}
+
+/* footer */
+footer {
+  background-color: #4a042a;
+  padding: .75rem;
+  color: white;
+  text-align: center;
+  font-size: .75rem;
+}
