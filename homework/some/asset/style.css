@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bangers', cursive;
 }
@@ -33,11 +34,11 @@ h3 {
 
 .kitties {
   padding: 2rem;
+  background-color: #85144b;
 }
 
 .kitties > ul {
   list-style-type: none;
-  /* grid styles */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 1rem;
@@ -73,7 +74,6 @@ h3 {
   font-size: 1.25rem;
 }
 
-/* footer */
 footer {
   background-color: #4a042a;
   padding: .75rem;
